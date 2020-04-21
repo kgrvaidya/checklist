@@ -1,11 +1,16 @@
 export const defaultState = {
-    ussers : [{
+    users : [{
         id : 'U1',
         name : "Dev",
     }],
     groups : [{
         name : "To do",
         id : "G1",
+        owner : "U1",
+    },
+    {
+        name : "Not To do",
+        id : "G2",
         owner : "U1",
     }],
     tasks : [{
